@@ -1,0 +1,440 @@
+.select2-container{
+  z-index: 2003;
+}
+
+#login-wrap .tooltip-inner{
+  white-space: normal;
+}
+
+#login-wrap{
+  backdrop-filter: blur(5px);
+  top: 0;
+  z-index: 2002;
+}
+
+#login-wrap #login-section{
+  width: 450px;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+#login-section .col-sm-12,
+#login-section .col-sm-6{
+  padding: 0 15px !important;
+  float: left;
+}
+
+#login-section .col-sm-12{
+  width: 100%;
+}
+
+#login-section .col-sm-6{
+  width: 50%;
+}
+
+#login-section .login-modal-header{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#login-section #login-label h3{
+  margin: 0px;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+#login-section .login-modal-header .close,
+#login-section .login-modal-header .close-disabled{
+  font-size: 1.3em;
+  color: #333333;
+  opacity: unset;
+}
+
+#login-section .form-control.login{
+  border-radius: 5px;
+  padding: 10px 15px;
+  height: unset;
+  border: 1px solid #e6e7e9;
+  background-color: #f7f7f7;
+}
+
+#login-section .form-group input + div.field-message{
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #a94442;
+}
+
+#login-section .form-group input + div.field-message.active{
+  margin-top: 3px;
+}
+
+#login-section .login-card .forgot-password{
+  float: left;
+  color: #4aacef;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#login-section .login-card .login-with,
+#login-section .login-card .sign-up{
+  float: right;
+  color: #4aacef;
+  margin-bottom: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#login-section .login-card .disable-social.disabled{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: 2;
+}
+
+#login-section .btn-2-block,
+#login-section .btn-2-block + .btn-primary,
+#login-section .existing-phone-card .btn-primary{
+  border-radius: 5px !important;
+  width: 400px;
+  background-color: #4aacef;
+  border-color: #4aacef;
+  outline: none;
+}
+
+#login-section .btn-2-block + .btn-primary{
+  margin-top: 10px;
+}
+
+#login-section .or-login-container{
+  margin: 30px 0;
+}
+
+#login-section .or-login-line{
+  border-top: 1px solid #e0e0e0;
+}
+
+#login-section .or-login-with{
+  font-size: 14px;
+  margin: -8px auto 0;
+  background: #ffffff;
+  padding: 0 8px;
+  width: max-content;
+  color: #9e9e9e;
+}
+
+#login-section #fb-login{
+  margin-top: 0;
+}
+
+#login-section #fb-login #fb-login2{
+  width: 400px;
+  background: #3579ea;
+}
+
+#login-section #fb-login #fb-login2::before,
+#login-section #fb-login #fb-login2::after{
+  height: 0;
+}
+
+#login-section #fb-login #fb-login2:hover{
+  opacity: 0.9;
+  box-shadow: none;
+}
+
+#login-section #fb-login #fb-login2 div{
+  margin-left: 0;
+}
+
+#login-section #fb-login #fb-login2 img{
+  padding: 0 5px;
+}
+
+#login-section .g_id_signin{
+  max-width: 400px;
+}
+
+#login-section .password-reset-card #login-label,
+#login-section .otp-card #login-label,
+#login-section .customer-details-card #login-label{
+  cursor: pointer;
+}
+
+#login-section .password-reset-card .fa-unlock-keyhole{
+  font-size: 3em;
+  color: #4aacef;
+  padding: 15px 0 20px 0;
+  width: 100%;
+  transform: scaleX(-1);
+}
+
+#login-section .password-reset-card .fa-unlock-keyhole ~ span{
+  font-size: 14px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+#login-section .password-reset-card .fa-unlock-keyhole ~ span:first-of-type{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+#login-section .password-reset-card .form-group{
+  margin-bottom: 30px;
+}
+
+#login-section .password-reset-card .form-control.login{
+  text-align: center;
+}
+
+#login-section .otp-card .fa-comment{
+  font-size: 3em;
+  color: #4aacef;
+  padding: 15px 0 20px 0;
+  width: 100%;
+}
+
+#login-section .otp-card .fa-comment + span{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#login-section .otp-card .otp-box{
+  margin: 25px 0;
+}
+
+#login-section .otp-card .otp-box .alert-danger{
+  padding: 10px 15px;
+}
+
+#login-section .otp-card .otp-box .form-group{
+  margin-bottom: 0;
+}
+
+#login-section .otp-card .otp-box .form-group input[type="number"]::-webkit-outer-spin-button,
+#login-section .otp-card .otp-box .form-group input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+#login-section .otp-card .otp-box .form-group input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+#login-section .otp-card .form-control.login{
+  width: 50px;
+  text-align: center;
+  border: 0;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline;
+  margin: 0 5px;
+}
+
+#login-section .otp-card .resend-code{
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#login-section .otp-card .btn-2-block{
+  margin: 20px 0 10px 0;
+}
+
+#login-section .customer-details-card .form-control[disabled]{
+  background: none;
+}
+
+#login-section .customer-details-card .slider{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+
+#login-section .customer-details-card .slider li{
+  margin: 0 1rem;
+}
+
+#login-section .customer-details-card .slider li button{
+  display: block;
+  width: 4em;
+  height: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #d1d1d1;
+  cursor: default;
+  transition: background-color 300ms;
+}
+
+#login-section .customer-details-card .slider li button.active{
+  background-color: #4aacef;
+}
+
+#login-section .customer-details-card .slider li button.previous{
+  cursor: pointer;
+}
+
+#login-section .customer-details-card .create-account h3,
+#login-section .existing-phone-card .existing-phone-header h3{
+  text-align: left;
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#login-section .customer-details-card .field-wrapper{
+  text-align: left;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#login-section .customer-details-card .select2-container--default,
+#login-section .customer-details-card .select2-selection--single{
+  border: 0;
+}
+
+#login-section .customer-details-card .select2-container .select2-selection--single .select2-selection__rendered{
+  padding-left: 0 !important;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.select2-container--open .select2-dropdown--below{
+  border-top: 1px solid #aaaaaa !important;
+}
+
+.select2-results__option{
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+#login-section .customer-details-card .field-wrapper .label{
+  font-weight: normal;
+  font-size: 14px;
+  color: unset;
+  padding: 0;
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+#login-section .customer-details-card .field-wrapper .error{
+  color: #a94442;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#login-section .customer-details-card .field-wrapper .label > .required{
+  color: #4aacef;
+}
+
+#login-section .customer-details-card .field-wrapper .label + input,
+#login-section .customer-details-card .field-wrapper .label + select{
+  padding: 0;
+  border: 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#login-section .customer-details-card .field-wrapper .label + input[readonly]{
+  background-color: transparent;
+  color: #555555;
+}
+
+#login-section .customer-details-card .btn-skip{
+  color: #4aacef;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#login-section .existing-phone-card .existing-phone-header h3{
+  margin: 0;
+}
+
+#login-section .existing-phone-card .btn-primary{
+  width: 150px;
+  box-shadow: none;
+}
+
+#login-section .existing-phone-card .existing-message{
+  padding: 20px 0;
+  text-align: left;
+}
+
+#login-section .existing-phone-card .btn-primary-inverted{
+  text-shadow: none;
+  border: 1px solid #4aacef;
+  color: #4aacef;
+  background-color: transparent;
+}
+
+#login-section .customer-details-card .account-second .select2-container--default.select2-container--disabled .select2-selection--single{
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 450px){
+  #login-wrap{
+    background: #ffffff;
+    backdrop-filter: none;
+  }
+
+  #login-wrap #login-section{
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+    padding: 25px 20px;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+  #login-section .login-modal-header .close,
+  #login-section .login-modal-header .close-disabled{
+    font-size: 1.7em;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 440px){
+  #login-section .btn-2-block,
+  #login-section .btn-2-block + .btn-primary,
+  #login-section #fb-login #fb-login2{
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  #login-section .otp-card .form-control.login{
+    width: 12%;
+    padding: 10px;
+  }
+
+  #login-section .col-xs-12{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 330px){
+  #login-section .login-card .forgot-password,
+  #login-section .login-card .login-with,
+  #login-section .login-card .sign-up{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,547 @@
+/* allergen info */
+@media (max-width: 768px) {
+	#about-us .section-content #allergen img {
+		max-width: 100%!important;
+	}
+}
+@media only screen and (max-width: 2000px) {
+	/* #allergen {
+		overflow-y: scroll!important;
+	} */
+	#allergen .modal-content{
+		overflow-y: scroll!important;
+	}
+	#allergen img {
+	}
+}
+@media (max-width: 1600px) and (min-width: 1024px) {
+	#allergen .modal-content {
+		/* width: 350px; */
+		margin-left: 22%!important;
+	}
+}
+/* end allergern info */
+
+/* Interactive Banner css */
+
+:root {
+    --main: #ff6800;
+    --text: #222;
+}
+
+#jqibox:has(img.app) {
+    overflow: overlay;
+    height: auto !important;
+}
+
+#jqi:has(img.app) {
+    top: 23% !important;
+    max-width: 500px !important;
+    border-radius: 25px;
+}
+
+#jqi:has(img.app) br {
+    display: none;
+}
+
+#jqi:has(img.app) .jqiclose {
+    display: none;
+}
+
+#jqi:has(img.app) .jqimessage {
+    padding: 0 !important;
+}
+
+#jqi:has(img.app) button.jqidefaultbutton {
+    color: #fff !important;
+}
+
+#jqi:has(img.app) .jqibuttons {
+    background: none !important;
+}
+
+#jqi #jqi_state_state0 {
+    display: relative !important;
+    /*     margin-top: 60px; */
+}
+
+#jqi .jqimessage img.app {
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.pop-header {
+    margin-top: 180px;
+    margin-bottom: 10px;
+}
+
+#jqi:has(img.app) .pop-header .p1 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--main);
+    line-height: normal !important;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700 !important;
+}
+
+.pop-header .p2 {
+    color: var(--text);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto 10px;
+}
+
+.pop-header .p3 {
+    border-bottom: 2px solid;
+    border-color: var(--main);
+    width: 60px;
+    margin: 15px auto;
+}
+
+.pop-content {
+    padding: 0px 15px 0 15px;
+}
+
+.qr-app {
+    border: 4px solid var(--main);
+    border-radius: 6px;
+    margin: auto;
+    width: 145px;
+}
+
+.goo-app-badge {
+    margin: auto auto 5px auto;
+    /* 	width: 180px; */
+}
+
+.ios-app-badge {
+    margin: auto auto 5px auto;
+    /* 	width: 180px; */
+}
+
+.w-qr {
+    padding: 0 20px 0px 20px;
+}
+
+.w-qr .column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    flex-flow: unset;
+}
+
+.w-qr .column .col1 {
+    /* 	text-align: right !important; */
+}
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+#jqi:has(img.app) .jqibuttons {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #fff;
+}
+
+#jqi:has(img.app) .jqibuttons button:after {
+    content: 'ay';
+}
+
+#jqi:has(img.app) .jqibuttons button {
+    background-color: var(--main) !important;
+    width: 95%;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#jqi:has(img.app) .jqibuttons button:focus-visible {
+    outline: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+    #jqi .jqimessage img.app {
+        width: 300px;
+    }
+
+    div.pop-header {
+        margin-top: 170px;
+    }
+}
+
+@media screen and (max-height: 800px) {
+
+    #jqi .jqimessage img.app {
+        width: 230px;
+    }
+
+    div.pop-header {
+        margin-top: 130px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #jqi:has(img.app) .pop-header .p1 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .pop-header .p2 {
+        font-size: 14px;
+    }
+
+    .w-qr .column {
+        flex-flow: wrap;
+    }
+
+    .goo-app-badge {
+        margin: 0 auto 10px auto;
+        width: 150px;
+    }
+
+    .ios-app-badge {
+        width: 150px;
+    }
+
+    #jqi .jqimessage img.app {
+        width: 200px;
+    }
+
+    div.pop-header {
+        margin-top: 120px;
+    }
+
+}
+
+/* Interactive Banner css */
+
+#landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.3)), url(uploads/bgheader.jpg) center #fff;
+    background-size: cover;
+}
+
+#store-data {
+    background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0)), url(uploads/bg-default.jpg) center;
+    background-position: bottom;
+}
+a#store-location {
+	color: white !important;
+}
+
+#deals-of-the-day {
+    display: none;
+}
+
+#landing #landing-form #tag-line {
+    color: #fff !important;
+}
+
+#landing #landing-form #form-text {
+    color: #fff !important;
+}
+
+.platina-order-type-bt.active {
+    background-color: #ff6a02 !important;
+}
+
+.navbar-left > li > a:hover, .navbar-left > li.active > a {
+    color: #ff6a02 !important;
+}
+
+.select2-container--platina .select2-selection {
+    border: 1px solid #ff6a02; 
+}
+
+.navbar-right > li {
+    color: #c42328;
+}
+
+.select_store_notification {
+    color: #ff6a02;
+}
+
+#menu-cont > #menu > #menu-ul > li > a.menu-active {
+    border-bottom: 4px solid #FF6A00!important;
+}
+.navbar-left > li > a:hover, .navbar-left > .menu-franchise-inquiry:hover, .navbar-left > li.active > a {
+	color: #ff6a02 !important;
+}
+.navbar-left > li > a::after, .navbar-left > .menu-franchise-inquiry::after {
+	background: #ff6a02 !important;
+}
+li.move-nav.menu-franchise-inquiry span.nav-text {
+	color: transparent !important;
+	font-size: 0px;
+}
+li.move-nav.menu-franchise-inquiry span.nav-text:after {
+	font-size: 12px;
+    content: "Franchise Enquiry";
+    color: #555555;
+}
+
+#our-menu {
+    display: none;
+}
+
+/* .btn-franchise {
+    display: none;
+} */
+.franchise-btn-submit {
+	background: #3498DB !important;
+	border: 1px solid #3498DB !important;
+}
+.franchise-btn-submit:hover {
+    background-color: #3071a9 !important;
+    border: 1px solid #285e8e !important;
+}
+
+.navbar-left > li > a::after {
+	color: #ff6a02;
+	position: absolute;
+	left: 45%;
+	top: 45px;
+	width: 100%;
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: #ff6a02;
+	content: '';
+	opacity: 0;
+	transform: translateY(-10px);
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+}
+
+#download-app .section-content .section-title {
+    color: #ff6a02 !important;
+}
+
+input:checked+.input-group-label {
+    background: #ff6a02 !important;
+}
+
+#menu-items ul li #item-buttons input[type=button], #half-half-block a, #HalfHalf a, #HALFHALF a {
+    background-color: #ff6a02;
+}
+
+.btn-primary {
+    background-color: #ff6a02;
+    border-color: #ff6a02;
+}
+
+.navbar-right > li > a {
+    color: #ff6a02 !important;
+}
+
+/* HOVER EFFECT WITH GLYPH
+.single:hover:before, .single:focus:before, .single:active:before {
+    font-family: 'Glyphicons Halflings';
+    content:"\e116";
+    font-size: 45px;
+    position: absolute;
+    top: 37px;
+    color:#fff;
+    left: 42%;
+    transition: all 200ms ease;
+}
+
+#menu-items .group:hover:before, #menu-items .group:focus:before, #menu-items .group:active:before{
+    font-family: 'Glyphicons Halflings';
+    content:"\e116";
+    font-size: 45px;
+    position: absolute;
+    top: 37px;
+    color:#fff;
+    left: 42%;
+    transition: all 200ms ease;
+} 
+
+/*#menu-items ul li.group:hover, #menu-items ul li.single:hover {
+    color: #f46e28 !important;
+    background-color: #f46e28 !important;
+} 
+HOVER EFFECT WITH GLYPH */
+
+
+/*hover effect box-shadow*/
+#menu-items ul li.group:hover, #menu-items ul li.single:hover {
+    color: #f46e28 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #f46e28;
+    cursor: pointer;
+  
+
+    box-shadow: 0 5px 15px rgb(252 105 3 / 62%);
+}
+/*hover effect box-shadow*/
+
+#menu-items .item-title {
+    color: #f26e28;
+}
+
+#menu-items h1 {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#menu-items .item-title {
+    font-family: 'Poppins', sans-serif !important;
+}
+.menu-item .item-thumb {
+	background: white !important;
+}
+
+#menu ul li a {
+	font-family: 'Poppins', sans-serif !important;
+}
+
+#footer-subscribe {
+    display: none;
+}
+
+/* li.move-nav:nth-child(3) {
+    display: none;
+} */
+/* banner area */
+#store-data #store-details {
+    text-align: left !important;
+}
+#store-data .button-edged {
+	background: #9C4100 !important;
+	border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    color: #f3f3f3 !important;
+    padding: 10px 30px!important;
+    font-weight: 600
+}
+#store-data .button-edged:hover {
+	background-color: #C75300 !important;
+}
+#store-select-container #store-select2-tag-line {
+	color: #ed680b !important;
+}
+button#getLocation, span.input-group-btn {
+	background-color: #ed680b !important;
+}
+
+/* About */
+div#about-us .button-edged {
+	background: #ff6a02 !important;
+	border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    color: #f3f3f3 !important;
+    padding: 10px 30px!important;
+    font-weight: 600;
+    font-size: 0px;
+}
+div#about-us .button-edged:hover {
+	background-color: #C75300 !important;
+}
+div#about-us .button-edged {
+    color: transparent !important;
+}
+
+div#about-us .button-edged:after {
+      font-size: 14px;
+      content: "Franchise Enquiry";
+      color: #f3f3f3;
+}
+
+@media (max-width: 1366px) and (max-height: 768px){
+    #store-data #store-details {
+	    padding-left: 160px;
+	    text-align: center !important;
+	   }
+}
+
+@media (max-width: 1251px), @media (max-width: 768px){
+	.toggle-left div {
+        background-color: #ff6a02;
+    }
+#menu-cont > #menu > #menu-ul > li > a.menu-active {
+        background-color: #ff6a02;
+    }
+}
+
+@media (max-width: 768px) {
+	.menu-item .item-thumb img {
+		width: 130px !important;
+        max-height: 90px !important;
+	}
+}
+
+
+@media (max-width: 480px){
+	#store-data #store-details {
+	    padding-left: 0px !important;
+	    text-align: center !important;
+	   }
+	#h-address a {
+        color: #fff !important;
+    }
+    #landing #landing-form #form-text {
+        font-size: 13px !important; 
+    }
+    #menu-items ul li #item-buttons input[type=button], #half-half-block a, #HalfHalf a, #HALFHALF a {
+        background-color: #3498db !important;
+    }
+    #landing {
+    	padding-bottom: 750px !important;
+    }
+    div#landing-logo {
+    	margin-top: 100px !important;
+    }
+}
+
+#select2-chainStores-container span{
+	display:none !important;
+}
+
+#select2-chainStores-container::before{
+	content: 'Suburb ';
+}
+
+/* Location Tab */
+
+span.sub-list-comingSoon {
+	color: #ff6a02 !important;
+}
+#locationsModal .sub-list-group-item:hover, #locationsModal .sub-list-group-item:focus {
+	background-color: #ff6a02 !important;
+}
+#locationsModal .locationsInfo-btn {
+	background-color: #ff6a02 !important;
+	border: 1px solid #f3f3f3 !important;
+}
+#locationsModal .locationsInfo-comingSoon {
+	background-color: #ff6a02 !important;
+}
+
+/* footer */
+
+#footerOfflineAlert {
+	background: #c76a28;
+}
+#footerOfflineAlert .progress {
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 0px;
+    background-image: -webkit-linear-gradient(top,#b56025 0,#b56025 100%) !important;
+    background-image: linear-gradient(to bottom,#b56025 0,#b56025 100%) !important;
+}

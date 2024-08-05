@@ -1,0 +1,48 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 05 Aug 2024 23:43:23 at https://amalfipizza.com.au/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://amalfipizza.com.au/ -O1 "C:\Users\Sumair Shah\Desktop\rest\Extract" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:46:29	Error: 	"Not Found" (404) at link https://amalfipizza.com.au/images/startup.png (from https://amalfipizza.com.au/)
+23:47:05	Error: 	"Not Found" (404) at link https://amalfipizza.com.au/est-time-icon.png (from https://amalfipizza.com.au/)
+23:47:05	Error: 	"Not Found" (404) at link https://amalfipizza.com.au/est-time-icon-white.png (from https://amalfipizza.com.au/)
+23:47:05	Warning: 	Found for https://amalfipizza.com.au/?page=checkout
+23:47:05	Warning: 	File has moved from https://amalfipizza.com.au/?page=checkout to ?page=browse
+23:47:05	Warning: 	Found for https://amalfipizza.com.au/?page=customer_details&err_code=1005&redirect_to_beer=1
+23:47:05	Warning: 	File has moved from https://amalfipizza.com.au/?page=customer_details&err_code=1005&redirect_to_beer=1 to ?page=browse
+23:47:05	Error: 	"Not Found" (404) at link https://amalfipizza.com.au/window.location.href (from https://amalfipizza.com.au/)
+23:47:25	Error: 	"Forbidden" (403) at link https://d2ova09jg8x3xk.cloudfront.net/amalfipizza.com.au/rowville/images/ajax-loader.gif (from https://amalfipizza.com.au/)
+23:47:46	Error: 	"Not Found" (404) at link https://amalfipizza.com.au/images/ajax-loader.gif (from https://amalfipizza.com.au/)
+23:47:46	Error: 	"Forbidden" (403) at link https://d2ova09jg8x3xk.cloudfront.net/amalfipizza.com.au/wendouree/images/img6.png (from https://amalfipizza.com.au/)
+23:47:46	Error: 	"Forbidden" (403) at link https://d2ova09jg8x3xk.cloudfront.net/amalfipizza.com.au/wendouree/images/img7.png (from https://amalfipizza.com.au/)
+23:47:46	Error: 	"Forbidden" (403) at link https://d2ova09jg8x3xk.cloudfront.net/amalfipizza.com.au/wendouree/images/img8.png (from https://amalfipizza.com.au/)
+23:47:46	Error: 	"Forbidden" (403) at link https://d2ova09jg8x3xk.cloudfront.net/amalfipizza.com.au/wendouree/images/img9.png (from https://amalfipizza.com.au/)
+23:47:46	Error: 	"Forbidden" (403) at link https://d2ova09jg8x3xk.cloudfront.net/amalfipizza.com.au/wendouree/images/menu1.png (from https://amalfipizza.com.au/)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/css/indicator.gif (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/css/all.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/images/open.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/css/all.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/images/organic-pizza.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/css/style.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/indicator.gif (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/autocomplete.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_close.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_nav_left.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_nav_right.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_title_over.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_title_left.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_title_main.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_title_right.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_loading.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_shadow_n.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_shadow_ne.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_shadow_e.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_shadow_se.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_shadow_s.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_shadow_sw.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_shadow_w.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Error: 	"Forbidden" (403) at link https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/fancybox/fancy_shadow_nw.png (from https://deliverit-online-resources-prd.s3.ap-southeast-2.amazonaws.com/templates/template4/scripts/fancybox/jquery.fancybox-1.3.4.css)
+23:47:46	Warning: 	Link https://amalfipizza.com.au/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+23:47:46	Error: 	"Not Found" (404) at link https://amalfipizza.com.au/core/core/mybasket.php (from https://amalfipizza.com.au/core/mybasket.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 23 seconds : 232 links scanned, 197 files written (29134785 bytes overall) [22745295 bytes received at 86484 bytes/sec], 7513037 bytes transferred using HTTP compression in 33 files, ratio 7%, 2.0 requests per connection
+(32 errors, 5 warnings, 0 messages)

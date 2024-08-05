@@ -1,0 +1,1 @@
+$(document).ready(function(){    $('.menu-item ul').scroll(function(){        if (this.scrollTop > 80) {            $('.menu-item .fade.in').addClass("bar")        } else {            $('.menu-item .fade.in').removeClass("bar");        }    });});

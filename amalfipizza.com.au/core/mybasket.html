@@ -1,0 +1,54 @@
+<h2 class="basket-your-orders">Your Order</h2><span class='platina-basket-store-title'>Amalfi Pizza Wendouree</span><hr style='margin:0;'>
+<script>
+    $(document).ready(function(){
+        $('#closeCart').click(function() {
+            $('.row-offcanvas').toggleClass('active', 200);
+            $('html').toggleClass('overflow-hide', 200);
+            $('.main-mask').fadeToggle(100);
+            return false;
+        });
+        
+                
+
+        
+        $(".empty-button").click(function(){
+
+            $.ajax({
+                type: "POST",
+                url: "core/ajax/empty_mybasket.php",
+                success: function(data) {
+                    $('#view-basket').load('core/mybasket.html');
+                    $('#checkout').html('Your order is now empty');
+                }
+
+            });
+
+        });
+
+        $(".remove-button").click(function(){
+            cart_id = $(this).attr('id');
+            half = $(this).attr('ref');
+                        
+            var data="";
+            if($(this).hasClass('upsell_cart_item')){
+                data = "&is_upsell=1";
+            }
+
+            $('#loading_bar').html("<img src='../../d2ova09jg8x3xk.cloudfront.net/amalfipizza.com.au/rowville/images/ajax-loader.gif'>").center();
+            $.ajax({
+                type: "POST",
+                url: "core/ajax/remove_mybasket_item.php",
+                data: "cart_id="+cart_id+"&half="+half+data,
+                success: function(data) {
+                    $('#view-basket').load('core/mybasket.html', function(){
+                                                    $('#loading_bar').html('');
+                            get_cart_total();
+                                            });
+                }
+            });
+        });
+
+            });
+</script>
+
+<span id='empty-basket-txt'>Your order is currently empty</span>

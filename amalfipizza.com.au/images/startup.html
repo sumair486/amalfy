@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Sorry, page is not found!</title>
+        
+        <link rel="shortcut icon" href="https://s3-ap-southeast-2.amazonaws.com/localserves.assets/images/favicon.png" type="image/x-icon">
+		
+        <!-- Bootstrap -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">		
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <style>
+            html, 
+            body {
+                height: 100%;
+            }
+
+            body{
+                background: #fff url(https://s3-ap-southeast-2.amazonaws.com/localserves.assets/images/page404_bg.png) no-repeat;
+                background-size: cover !important;
+                background-attachment: fixed !important;    
+                background-position: center;
+            }
+
+            #page404{
+                padding-top: 5%;
+            }
+
+            #page404-content{
+                text-align: center;
+            }
+
+            .page404-img-container img{
+                width: 500px !important;
+            }
+
+            #page404-content h3 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 22px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                color: #000000;
+                margin-bottom: 30px;
+            }
+
+            .page404-btn{
+                font-family: 'Poppins', sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                text-align: center;
+                color: #ffffff; 
+                background: #f1826b;   
+                padding: 10px 60px;
+            }
+
+            .page404-btn:hover{
+                color: #ffffff; 
+                background: #f1826b;    
+                outline: none;
+                box-shadow: none;   
+            }
+
+            /* IPAD VIEW STYLING Ipad Pro 10.5 */
+            @media (max-width: 834px){ 
+                #page404{
+                    margin: auto !important;
+                    text-align: center;
+                    padding-top: 40%;
+                } 
+                .page404-img-container img{
+                    width: 300px !important;
+                }  
+            }
+            
+            /* IPAD VIEW STYLING Ipad Pro 12.5 */
+            @media only screen 
+            and (min-device-width: 1024px) 
+            and (max-device-width: 1366px)
+            and (-webkit-min-device-pixel-ratio: 2) { 
+                #page404{
+                    margin: auto !important;
+                    text-align: center;
+                    padding-top: 40%;
+                } 
+                .page404-img-container img{
+                    width: 300px !important;
+                }    
+            }
+            
+            /* IPAD VIEW STYLING */
+            @media (max-width: 768px){
+                body{
+                    background: #fff url(https://s3-ap-southeast-2.amazonaws.com/localserves.assets/images/page404_bg_m.png) no-repeat !important;
+                    background-size: cover !important;
+                    background-attachment: fixed !important;    
+                    background-position: center !important;
+                }    
+                #page404{
+                    margin: auto;
+                    text-align: center;
+                    padding-top: 30%;
+                }     
+                .page404-img-container img{
+                    width: 300px !important;
+                }
+                #page404-content h3 {
+                    font-size: 18px !important;
+                }    
+                .page404-btn{
+                    font-size: 18px;  
+                    padding: 10px 40px;
+                }  
+            }
+
+            /* MOBILE VIEW STYLING */
+            @media (max-width: 480px){
+                body{
+                    background: #fff url(https://s3-ap-southeast-2.amazonaws.com/localserves.assets/images/page404_bg_m.png) no-repeat !important;
+                    background-size: cover !important;
+                    background-attachment: fixed !important;    
+                    background-position: center !important;
+                }    
+                #page404{
+                    margin: auto;
+                    text-align: center;
+                    padding-top: 40%;
+                }     
+                .page404-img-container img{
+                    width: 200px !important;
+                }
+                #page404-content h3 {
+                    font-size: 15px !important;
+                }    
+                .page404-btn{
+                    font-size: 15px;  
+                    padding: 10px 40px;
+                }  
+            }
+
+            /* SMALLER MOBILE VIEW STYLING */
+            @media (max-width: 320px){ 
+                .page404-img-container img{
+                    width: 180px !important;
+                }    
+                #page404{
+                    padding-top: 20%;
+                }     
+            }            
+        </style>
+    </head>
+    <body>
+        <div class="container" id="page404">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12" id="page404-content">
+                    <div class="page404-img-container"><img src="https://s3-ap-southeast-2.amazonaws.com/localserves.assets/images/page404_img.png" alt="Page is not found image"></div>
+                    <h3>Sorry, we can’t find the page you’re looking for.</h3>
+                    <a href="https://localserves.com.au/"><button type="button" class="btn page404-btn">Back to home</button></a>
+                </div>
+            </div>
+        </div>        
+    </body>
+</html>
